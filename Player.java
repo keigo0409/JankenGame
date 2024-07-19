@@ -1,8 +1,5 @@
 
 import java.util.Random;
-
-
-
 public class Player {
 
    private String playerName;
@@ -32,9 +29,6 @@ public class Player {
     */
 
    public void createRandomHand() {
-
-       
-
        Random random = new Random();
 
        int randomValue = random.nextInt(3);
